@@ -73,3 +73,22 @@ mediapipe
 numpy
 pycaw
 comtypes
+
+py -3.10 -m venv gesturevol-env
+gesturevol-env\Scripts\activate
+pip install mediapipe opencv-python numpy pycaw comtypes
+pip install mediapipe==0.10.0
+pip list
+Look for:
+
+mediapipe
+
+opencv-python
+
+pycaw
+
+numpy
+
+comtypes
+python main.py
+
